@@ -1,6 +1,6 @@
 cask "ai-term" do
-  version "0.9.6"
-  sha256 "fc51a08a3d97991f6182fb777b48b612ae1470e2efabc0b4ef20660e7e512f91"
+  version "0.9.7"
+  sha256 "c870ac7af93dc89ff7b64f4c009d546df306e6ae9720104d414f3c0451d752fb"
 
   url "https://ai-term.com/AITerm-#{version}.dmg"
   name "AITerm"
