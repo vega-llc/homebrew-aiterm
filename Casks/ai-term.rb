@@ -2,7 +2,8 @@ cask "ai-term" do
   version "0.16.2"
   sha256 "aa48fc0aa0d529d98d54921bacfc8377c85f79a5853844b2f43aa80aa97b4890"
 
-  url "https://ai-term.com/AITerm-#{version}.dmg"
+  url "https://aiterm-dl.vega-llc.workers.dev/AITerm-#{version}.dmg",
+      verified: "aiterm-dl.vega-llc.workers.dev/"
   name "AITerm"
   desc "Terminal with AI built into the command loop"
   homepage "https://ai-term.com/"
