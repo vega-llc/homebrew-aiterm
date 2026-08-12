@@ -1,6 +1,6 @@
 cask "ai-term" do
-  version "0.22.1"
-  sha256 "5438db18c2d014c2e2f1cf6657fb5cbee4a31136ffcc43ff72e513183bdcc599"
+  version "0.22.2"
+  sha256 "722637872d5b4ffb11c8be959d9176ab22ebdd6ac03a010cf827efc671ac4894"
 
   url "https://aiterm-dl.vega-llc.workers.dev/AITerm-#{version}.dmg",
       verified: "aiterm-dl.vega-llc.workers.dev/"
