@@ -1,6 +1,6 @@
 cask "ai-term" do
-  version "0.23.1"
-  sha256 "01ac652f0f1208b57b84b8fa0d3330f6c564f3b540de8ce7c37d849deec9b436"
+  version "0.24.0"
+  sha256 "ec410f18f479f0f0861ef27e767bb98d5aae48ebee622711a7e15c7d113aa3b9"
 
   url "https://aiterm-dl.vega-llc.workers.dev/AITerm-#{version}.dmg",
       verified: "aiterm-dl.vega-llc.workers.dev/"
@@ -14,8 +14,8 @@ cask "ai-term" do
   end
 
   auto_updates true
-  depends_on macos: :ventura
   depends_on arch: :arm64
+  depends_on macos: :ventura
 
   app "AITerm.app"
 
